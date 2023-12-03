@@ -2,7 +2,7 @@ lines: list[str] = []
 
 with open("2/game_1.txt", "r") as file:
   lines = file.readlines()
-
+  
 lines = [line.strip() for line in lines]
 
 cube_amounts: dict[str, int] = {
